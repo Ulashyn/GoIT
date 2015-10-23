@@ -1,0 +1,46 @@
+p {
+	margin-left: 20px;
+	font-size: 1.5rem;
+}
+
+li {
+	margin-left: 40px;
+	font-size: 1.5em;
+}
+
+.container {
+	width: 80%;
+	margin: 60px auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.portrait {
+	border-radius: 50%;
+	width: 20%;
+}
+
+.line {
+	width: 100%;
+	height: 2px;
+	background-color: #000;
+	margin: 40px 0;
+}
+
+.symbol-link {
+	font-size: 1.7em;
+	text-decoration: none;
+}
+
+.gps-smile {
+    -webkit-animation: pulsate 1.5s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.0
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
