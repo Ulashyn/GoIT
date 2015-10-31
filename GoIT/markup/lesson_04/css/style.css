@@ -154,6 +154,7 @@ body {
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
 	padding-left: 15px;
+	font-size: 14px;
 	line-height: 24px;
 	color: #424c43;
 	background-color: #edeef0;
@@ -164,6 +165,7 @@ body {
 .side-left h1 {
 	font-size: 18px;
 	text-align: center;
+	font-weight: bold;
 }
 
 .content {
@@ -179,6 +181,7 @@ body {
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
 	padding-left: 15px;
+	font-size: 14px;
 	line-height: 24px;
 	color: #424c43;
 	background-color: #edeef0;
@@ -188,7 +191,8 @@ body {
 
 .side-right h1 {
 	font-size: 18px;
-	text-align: center;
+	text-align: center;	
+	font-weight: bold;
 }
 
 .copy {
