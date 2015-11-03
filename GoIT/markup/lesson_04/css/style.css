@@ -83,6 +83,11 @@ body {
 	line-height: 0;
 }
 
+.menu-block {
+	position: relative;
+	z-index: 10;
+}
+
 .menu {
 	font-size: 14px;
 	list-style: none;
@@ -95,6 +100,9 @@ body {
 	background: -ms-linear-gradient(top,  #373737 0%,#303030 100%);
 	background: linear-gradient(to bottom,  #373737 0%,#303030 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030',GradientType=0 );
+	-webkit-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.75);
 }
 
 .menu li {
@@ -105,8 +113,12 @@ body {
 	background: #222;
 }
 
-.menu li:first-child {
+.menu>li:first-child {
 	margin-left: 6px;
+}
+
+.menu li li {
+	margin-right: 6px;
 }
 
 .menu li a {
@@ -143,9 +155,7 @@ body {
 .container{
 	width: 1000px;
 	overflow: hidden;
-	-webkit-box-shadow: inset 0px 5px 9px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 5px 9px 0px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 5px 9px 0px rgba(0,0,0,0.75);
+	z-index: 1;
 }
 
 .side-left {
