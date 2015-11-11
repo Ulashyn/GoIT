@@ -72,6 +72,7 @@ body {
 
 .head-right li a {
 	color: #128aa7;
+	display: block;
 }
 
 .head-right li a:hover {
