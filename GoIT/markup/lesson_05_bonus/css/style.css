@@ -1,0 +1,46 @@
+body {
+	background-color: #fff;
+}
+
+table {
+	margin: 200px auto;
+}
+
+td {
+	width: 60px;
+	height: 60px;
+	border: 10px solid #282828;
+	border-collapse: collapse;
+}
+
+.white {
+	background-color: #fff;
+}
+
+.red {
+	background-color: #ff5d3f;
+}
+
+.yellow {
+	background-color: #ffe657;
+}
+
+.gray {
+	background-color: #505151;
+}
+
+.blue {
+	background-color: #1b4c8d;
+}
+
+.spec-br-top {
+	border-top: 10px solid #fff;
+}
+
+.spec-br-bot {
+	border-bottom: 10px solid #fff;
+}
+
+.spec-br td {
+	border: 10px solid #fff;
+}
