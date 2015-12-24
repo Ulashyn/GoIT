@@ -585,6 +585,10 @@ nav span {
 
  }
 
+main a {
+	display: block;
+}
+
 main span {
  	color: #1f2528;
     position: relative;
