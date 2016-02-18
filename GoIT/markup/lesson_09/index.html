@@ -6,15 +6,20 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
+	<!--[if IE 8]>
+	<link href="css/style_ie8.css" rel="stylesheet" type="text/css"/>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
 </head>
 <body>
 	<div class="header">
 		<div class="wrapper">			
 			<h1 class="logo"><a href="#"><img src="img/logo.png" alt=""></a></h1>
 			<div class="menu-wrapper">
-				<div class="current-page">
+				<!-- <div class="current-page">
 					<a href="#" class="current-page__link">Home</a>
-				</div>
+				</div> -->
 				<ul class="menu menu--mobile">
 					<li class="menu__item menu__item--current"><a href="#" class="menu__link">Home</a></li>
 					<li class="menu__item"><a href="#" class="menu__link">About</a></li>
@@ -24,7 +29,6 @@
 					<li class="menu__item"><a href="#" class="menu__link">Dolor sit amet</a></li>
 				</ul>
 			</div>
-		</div>
 			<div class="slider">
 				<div class="slider__item clearfix">
 					<p class="slider__text1">Lorem Ipsum Dolor</p>
@@ -42,6 +46,7 @@
 				<a href="" class="slider__arrow slider__arrow--left"></a>
 				<a href="" class="slider__arrow slider__arrow--right"></a>
 			</div>
+		</div>
 	</div><!-- Header -->
 	<div class="about-section">
 		<div class="wrapper clearfix">
