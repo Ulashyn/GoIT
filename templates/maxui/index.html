@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/components/slideshow.min.css" />
+        <link rel="stylesheet" href="css/components/slidenav.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/components/slideshow.min.js"></script>
+        <script src="js/components/slideshow-fx.min.js"></script>
+        <script src="js/components/grid.min.js"></script>
+    </head>
+    <body>
+	    <div class="header">
+	    	<div class="uk-container uk-container-center">
+	    		<div class="uk-grid">
+	    			<div class="uk-width-medium-7-10 uk-vertical-align">
+	    				<h1 class="uk-vertical-align-middle header__logo">Binomarket</h1>			
+	    			</div>
+	    			<div class="uk-width-medium-3-10 uk-vertical-align">
+	    				<div class="">
+	    					<a class="uk-button uk-button-large uk-vertical-align-middle">Реестрация</a>    				
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="fluid-bg">
+		    <div class="uk-container uk-container-center">
+		    	<nav class="uk-navbar">
+		    	    <ul class="uk-navbar-nav">
+		    	        <li class="uk-active"><a href="">Главная</a></li>
+		    	        <li class="uk-parent" data-uk-dropdown><a href="">Услуги <i class="uk-icon-caret-down"></i></a>
+		    	        	<div class="uk-dropdown uk-dropdown-navbar">
+				                <ul class="uk-nav uk-nav-navbar">
+				                    <li><a href="">Обучение</a></li>
+				                    <li><a href="">Торговля с экспертом</a></li>
+				                    <li><a href="">Доверительное управление</a></li>
+				                    <li><a href="">Торговые сигналы</a></li>
+				                </ul>
+				            </div>
+		    	        </li>
+		    	        <li class="uk-parent" data-uk-dropdown><a href="">Видеокурсы <i class="uk-icon-caret-down"></i></a>
+		    	        	<div class="uk-dropdown uk-dropdown-navbar">
+				                <ul class="uk-nav uk-nav-navbar">
+				                    <li><a href="">Вводный курс</a></li>
+				                    <li><a href="">Углубленный курс</a></li>
+				                    <li><a href="">Продвинутый курс</a></li>
+				                </ul>
+				            </div>
+		    	        </li>
+		    	        <li class="uk-parent" data-uk-dropdown><a href="">Аналитика и события <i class="uk-icon-caret-down"></i></a>
+		    	        	<div class="uk-dropdown uk-dropdown-navbar">
+				                <ul class="uk-nav uk-nav-navbar">
+				                    <li><a href="">Валюта</a></li>
+				                    <li><a href="">Акции</a></li>
+				                    <li><a href="">Сырье</a></li>
+				                    <li><a href="">Индексы</a></li>
+				                </ul>
+				            </div>
+		    	        </li>
+		    	        <li><a href="">Рейтинг брокеров</a>
+		    	        </li>
+		    	        <li><a href="">Полезное</a>
+		    	        </li>
+		    	        <li><a href="">О нас</a>
+		    	        </li>
+		    	    </ul>
+		    	</nav>
+		    </div>
+	    </div>
+	    <div class="uk-container uk-container-center">
+	    	<div class="uk-grid uk-grid-small">
+	    		<div class="uk-width-1-1 uk-width-medium-7-10 uk-width-large-7-10">
+			    	<div class="uk-slidenav-position" data-uk-slideshow="{kenburns:true, autoplay:true}">
+		                <ul class="uk-slideshow uk-overlay-active">
+		                    <li>
+		                    	<img src="img/slide_1.jpg" alt="">
+		                    	<div class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom uk-text-center">
+                                	<h3>Overlay Bottom</h3>
+                                	<p>Lorem <a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
+                                	<button class="uk-button uk-button-primary">Кнопка</button>
+                                </div>
+		                    </li>
+		                    <li>
+		                    	<img src="img/slide_2.jpg" alt="">
+		                    	<div class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom uk-text-center">
+                                	<h3>Overlay Bottom</h3>
+                                	<p>Lorem <a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
+                                	<button class="uk-button uk-button-primary">Кнопка</button>
+                                </div>
+		                    </li>
+		                    <li>
+		                    	<img src="img/slide_3.jpg" alt="">
+		                    	<div class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom uk-text-center">
+                                	<h3>Overlay Bottom</h3>
+                                	<p>Lorem <a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
+                                	<button class="uk-button uk-button-primary">Кнопка</button>
+                                </div>
+		                    </li>
+		                </ul>
+		                <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous" style="color: rgba(255,255,255,0.8)"></a>
+		                <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next" style="color: rgba(255,255,255,0.8)"></a>
+		            </div>
+	    		</div>
+	    		<div class="uk-width-1-1 uk-width-medium-3-10 uk-width-large-3-10">
+	    			<div class="uk-panel uk-panel-box uk-margin-top uk-margin-bottom reg-box">
+		    			<h2 class="uk-text-center uk-text-contrast">Регистрация</h2>
+			    		<form class="uk-form">
+	                    	<div class="uk-form-row">
+	                    	    <input class="uk-width-1-1 uk-form-large" type="text" placeholder="Имя">
+	                    	</div>
+	                    	<div class="uk-form-row">
+	                        	<input class="uk-width-1-1 uk-form-large" type="email" placeholder="Email">
+	                    	</div>
+	                    	<div class="uk-form-row">
+	                        	<input class="uk-width-1-1 uk-form-large" type="text" placeholder="Телефон">
+	                    	</div>
+	                    	<div class="uk-form-row">
+	                        	<a class="uk-width-1-1 uk-button uk-button-primary uk-button-large" href="#">Зарегистрироваться</a>
+	                    	</div>
+                		</form>
+            		</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="fluid-bg">
+		    <div class="uk-container uk-container-center">
+		    	<div class="uk-grid uk-margin-large-top uk-margin-large-bottom">
+			    	<div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-2">
+				    	<h2 class="uk-text-center uk-text-contrast uk-heading-large">О компании</h2>
+				    	<p class="uk-text-large uk-text-contrast uk-text-justify">Компания Binomarket ведет свою активную деятельность с 2015 года. Это команда квалифицированных специалистов и экспертов в области финансовых рынков. Всегда готова решать поставленные цели и задачи любой сложности. Каждый сотрудник имеет неоценимый опыт, что дает нашим трейдерам уверенность в своей финансовой стабильности.
+				    	</p>
+			    	</div>
+			    	<div class="uk-hidden-small uk-width-medium-1-2 uk-width-large-1-2">
+			    		<img class="uk-responsive-height" src="img/bg_team.jpg" alt="team">
+			    	</div>
+		    	</div>
+		    </div>
+	    </div>
+	    <div class="uk-container uk-container-center">
+		   	<div class="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-margin>
+		    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
+			    	<p class="uk-heading-large"><i class="uk-icon-area-chart uk-icon-large"></i></p>
+			    	<h1>Заголовок</h1>
+			    	<p class="uk-text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			    	</p>
+		    	</div>
+		    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
+			    	<p class="uk-heading-large"><i class="uk-icon-university uk-icon-large"></i></p>
+			    	<h1>Заголовок</h1>
+			    	<p class="uk-text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+		    	</div>
+		    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
+			    	<p class="uk-heading-large"><i class="uk-icon-calendar-check-o uk-icon-large"></i></p>
+			    	<h1>Заголовок</h1>
+			    	<p class="uk-text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+		    	</div>
+		   	</div>
+		</div>
+		<footer class="fluid-bg">
+			<div class="uk-container uk-container-center uk-text-center">
+				<div class="uk-margin-top uk-margin-bottom">
+					<ul class="social-network social-circle">
+		                <li><a href="#" class="icoVk" title="Vkontakte"><i class="uk-icon-vk"></i></a></li>
+		                <li><a href="#" class="icoFacebook" title="Facebook"><i class="uk-icon-facebook"></i></a></li>
+		                <li><a href="#" class="icoTwitter" title="Twitter"><i class="uk-icon-twitter"></i></a></li>
+		                <li><a href="#" class="icoGoogle" title="Google +"><i class="uk-icon-google-plus"></i></a></li>
+		                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="uk-icon-linkedin"></i></a></li>
+		            </ul>
+	            </div>
+			</div>
+			<div class="uk-container uk-container-center">
+				<div class="uk-grid uk-margin-bottom uk-text-contrast" data-uk-margin>
+					<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
+						<p>© 2016 Binomarket. Все права защищены.</p>
+					</div>
+					<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
+						<p class="uk-text-large">info@binomarket.com</p>
+					</div>
+					<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
+						<p>Developed by <a href="http://ulashyn.github.io">Ulashyn O.</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+    </body>
+</html>
