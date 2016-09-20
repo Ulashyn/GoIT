@@ -6,29 +6,32 @@
         <link rel="stylesheet" href="css/uikit.min.css" />
         <link rel="stylesheet" href="css/components/slideshow.min.css" />
         <link rel="stylesheet" href="css/components/slidenav.min.css" />
+        <link rel="stylesheet" href="css/components/sticky.min.css" />
         <link rel="stylesheet" href="css/main.css" />
         <script src="js/jquery-3.1.0.min.js"></script>
         <script src="js/uikit.min.js"></script>
         <script src="js/components/slideshow.min.js"></script>
         <script src="js/components/slideshow-fx.min.js"></script>
         <script src="js/components/grid.min.js"></script>
+        <script src="js/components/sticky.min.js"></script>
+        <script src="js/components/parallax.min.js"></script>
     </head>
     <body>
 	    <div class="header">
 	    	<div class="uk-container uk-container-center">
 	    		<div class="uk-grid">
 	    			<div class="uk-width-medium-7-10 uk-vertical-align">
-	    				<h1 class="uk-vertical-align-middle header__logo">Binomarket</h1>			
+	    				<h1 class="uk-vertical-align-middle header__logo">Binomarket</h1>	
 	    			</div>
 	    			<div class="uk-width-medium-3-10 uk-vertical-align">
 	    				<div class="">
-	    					<a class="uk-button uk-button-large uk-vertical-align-middle">Реестрация</a>    				
+	    					<a class="uk-button uk-button-large uk-vertical-align-middle">Регистрация</a>				
 	    				</div>
 	    			</div>
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="fluid-bg">
+	    <div class="fluid-bg" data-uk-sticky="{top: -150, animation: 'uk-animation-slide-top'}">
 		    <div class="uk-container uk-container-center">
 		    	<nav class="uk-navbar">
 		    	    <ul class="uk-navbar-nav">
@@ -62,7 +65,7 @@
 				                </ul>
 				            </div>
 		    	        </li>
-		    	        <li class="uk-parent" data-uk-dropdown=""><a href="">Рейтинг брокеров <i class="uk-icon-caret-down"></i></a>
+		    	        <li class="uk-parent" data-uk-dropdown=""><a href="">Брокеры <i class="uk-icon-caret-down"></i></a>
 		    	        	<div class="uk-dropdown uk-dropdown-navbar">
 				                <ul class="uk-nav uk-nav-navbar">
 				                    <li><a href="">Как выбрать</a></li>
@@ -79,13 +82,13 @@
 		    	</nav>
 		    </div>
 	    </div>
-	    <div class="uk-container uk-container-center">
+	    <div class="uk-container-center">
 	    	<div class="uk-grid uk-grid-small">
 	    		<div class="uk-width-1-1 uk-width-medium-1-1 uk-width-large-1-1">
 			    	<div class="uk-slidenav-position" data-uk-slideshow="{kenburns:true, autoplay:true}">
 		                <ul class="uk-slideshow uk-overlay-active">
 		                    <li>
-		                    	<img src="img/slide_1.jpg" alt="">
+		                    	<img src="img/slide_1d.jpg" alt="">
 		                    	<div class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom uk-text-center">
                                 	<h3>Overlay Bottom</h3>
                                 	<p>Lorem <a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
@@ -93,7 +96,7 @@
                                 </div>
 		                    </li>
 		                    <li>
-		                    	<img src="img/slide_2.jpg" alt="">
+		                    	<img src="img/slide_2d.jpg" alt="">
 		                    	<div class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom uk-text-center">
                                 	<h3>Overlay Bottom</h3>
                                 	<p>Lorem <a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
@@ -101,7 +104,7 @@
                                 </div>
 		                    </li>
 		                    <li>
-		                    	<img src="img/slide_3.jpg" alt="">
+		                    	<img src="img/slide_3d.jpg" alt="">
 		                    	<div class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom uk-text-center">
                                 	<h3>Overlay Bottom</h3>
                                 	<p>Lorem <a href="#">ipsum dolor</a> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
@@ -129,31 +132,33 @@
 		    	</div>
 		    </div>
 	    </div>
-	    <div class="uk-container uk-container-center">
-		   	<div class="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-margin>
-		    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
-			    	<p class="uk-heading-large"><i class="uk-icon-area-chart uk-icon-large"></i></p>
-			    	<h1>Заголовок</h1>
-			    	<p class="uk-text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			    	</p>
-		    	</div>
-		    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
-			    	<p class="uk-heading-large"><i class="uk-icon-university uk-icon-large"></i></p>
-			    	<h1>Заголовок</h1>
-			    	<p class="uk-text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-		    	</div>
-		    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
-			    	<p class="uk-heading-large"><i class="uk-icon-calendar-check-o uk-icon-large"></i></p>
-			    	<h1>Заголовок</h1>
-			    	<p class="uk-text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-		    	</div>
-		   	</div>
+	    <div class="gradient-bg m-color">
+		    <div class="uk-container uk-container-center">
+			   	<div class="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-margin>
+			    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
+				    	<p class="uk-heading-large"><i class="uk-icon-area-chart uk-icon-large"></i></p>
+				    	<h1>Заголовок</h1>
+				    	<p class="uk-text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				    	</p>
+			    	</div>
+			    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
+				    	<p class="uk-heading-large"><i class="uk-icon-university uk-icon-large"></i></p>
+				    	<h1>Заголовок</h1>
+				    	<p class="uk-text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+			    	</div>
+			    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
+				    	<p class="uk-heading-large"><i class="uk-icon-calendar-check-o uk-icon-large"></i></p>
+				    	<h1>Заголовок</h1>
+				    	<p class="uk-text-large">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+			    	</div>
+			   	</div>
+			</div>
 		</div>
 		<footer class="fluid-bg">
 			<div class="uk-container uk-container-center uk-text-center">
