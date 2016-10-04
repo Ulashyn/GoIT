@@ -82,6 +82,12 @@
 	background: #19232d;
 }
 
+.chart {
+  height: 300px;
+  padding: 20px;
+  background: #19232d;
+}
+
 /* Footer social icons */
 ul.social-network {
 	list-style: none;
