@@ -88,6 +88,10 @@
   background: #19232d;
 }
 
+.contact-box{
+	background: none;
+}
+
 /* Footer social icons */
 ul.social-network {
 	list-style: none;
