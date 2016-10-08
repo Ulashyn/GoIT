@@ -4,47 +4,153 @@
 <head>
     <meta charset="utf-8">
     <title>demo</title>
-    <link rel="stylesheet" href="css/uikit.min.css">
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <link rel="stylesheet" href="css/style.css"> 
-    <link rel="stylesheet" href="css/accordion.min.css">
-    <script src="js/uikit.min.js"></script>
-    <script src="js/accordion.min.js"></script>
-    
-    
-    </head>
 
-<body style="background: url(../img/goods/licht%20h%C3%A4lfte.jpg) repeat;">
-    <nav>
-        <ul>
-            <li class="logo"><a href="#">home</a></li>
-            <li><a href="about.html">Über uns</a></li>
-            <li><a href="services.html">Walnüsse</a></li>
-            <li><a href="products.html">Himbeere</a></li>
-            <li><a href="jobs.html">Heidelbeeren</a></li>
-            <li><a href="contact.html">Kürbiskerne</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-            <li class="socal"><a href="contact.html">fb</a><a href="contact.html">G+</a><a href="contact.html">Ins</a><a href="contact.html">TVIT</a></li>
-        </ul>
-    </nav>
-     <div class="Walnusse">
-    <article class="uk-article">
-        <div class="uk-accordion" data-uk-accordion>
-            <h3 class="uk-accordion-title">Walnusskerne</h3>
-            <div class="uk-accordion-content"> Die Echte Walnuss (Juglans regia) ist ein sommergrüner Laubbaum aus der Familie der Walnussgewächse (Juglandaceae). Der Walnussbaum wird 15 bis 25 m, in dichteren Baumbeständen auch bis 30 m hoch. Sein Höhenwachstum endet mit ca. 60 bis 80 Jahren. Er kann ein Alter von 150 bis 160 Jahren erreichen. Die Weltjahresproduktion an Walnüssen lag 2011 bei 3.423.447 Tonnen. Damit ist sie seit 1961 fast um das Siebenfache gestiegen. Die Hauptproduzenten waren China, Iran, USA, die Ukraine. Die Früchte reifen in unseren Breiten Ende September bis Anfang Oktober zu Walnüssen. In Kalifornien dauert die Ernte von Ende August bis November</div>
-            <h3 class="uk-accordion-title">Gesundheitlicher Nutzen</h3>
-            <div class="uk-accordion-content">Je nachdem, ob frisch oder getrocknet, haben Walnusskerne einen Fettanteil von 42 bis 62,5 Prozent, 11 bis 16 Prozent Eiweiß, 15 bis 23 Prozent Kohlenhydrate. Walnüsse haben von allen Nussfrüchten mit 7490 mg/100 g den höchsten Gehalt an Linolensäure (einer für das Herz gesunden Omega-3-Fettsäure). Darüber hinaus sind sie reich an Tocopherolen, einer Gruppe von vier verschiedenen Vitamin-E-Formen. Dazu ist diese Frucht reich an Zink (ein wichtiges Spurenelement unter anderem für Leber und Haare) und Kalium (unter anderem für den Herzmuskel), außerdem enthält sie Magnesium, Phosphor, Schwefel, Eisen, Calcium und die Vitamine A, B1, B2, B3, C und Pantothensäure. Der Brennwert von 100 g verzehrbarem Anteil liegt bei 2738 kJ. Ein Vergleich der Brennwerte und Fettgehalte von Nüssen findet sich unter Nussfrüchte. In einer Untersuchung über Mittelmeerdiäten wurde festgestellt, dass die Nüsse eine vor Diabetes (Typ 2) schützende Wirkung besitzen. Auch zeigen neuere Untersuchungen, dass schon neun Walnüsse täglich und ein Teelöffel Walnussöl den Körper vor zu hohem Blutdruck in Stresssituationen schützen können. In Kombination mit Leinöl sollen sich Walnüsse zudem auch positiv auf den Zustand der Blutgefäße auswirken. Darüber hinaus scheinen Walnüsse nicht nur Herz-Kreislauferkrankungen entgegenzuwirken, sondern auch Prostatakrebs zu bremsen. Halbreife Nüsse und im Frühsommer geerntetes Laub enthalten bis zu 1 Prozent Vitamin C und gehören damit zu den Vitamin-C-reichsten Pflanzenteilen in Mitteleuropa. Schon seit der Antike fanden sie vielseitige medizinische Verwendung. Noch heute werden ihre Extrakte in der Naturheilkunde eingesetzt und sollen unter anderem bei Anämie, Diabetes mellitus, Durchfall, Darmparasiten, Frostbeulen, Hautgeschwüren und Wunden helfen. Ihnen wird eine antiseptische, wurmtreibende, tonische, blutreinigende und narbenbildende Wirkung nachgesagt.</div>
-            <h3 class="uk-accordion-title">Unser Sortiment und Klassifizierung </h3>
-            <div class="uk-accordion-content">Extra licht Hälfte (sehr hell, beinahe weiß ) – (1/2) Licht Hälfte (hell aber bräunlich ) – (1/2) Licht Viertel – (1/4) Licht Achtel oder Bruch – (1/8) Licht Amber (hell bernsteinfarbig) – (1/2) Amber (bernsteinfarbig) (1/2 und MIX) verschiedene Fraktionen (80/20; 70/30; 65/35)</div>
-            <h3 class="uk-accordion-title">BIO Walnusskerne </h3>
-            <div class="uk-accordion-content"><img src="img/goods/WnutBIO.jpg" alt=""></div>
-            <h3 class="uk-accordion-title">Verpackung</h3>
-            <div class="uk-accordion-content">20 Kilo Karton 5 oder 10 Kilo Vakuumverpackung</div>
+    <link rel="stylesheet" href="css/uikit.almost-flat.min.css" />
+    <link rel="stylesheet" href="css/components/sticky.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/components/sticky.min.js"></script>
+    <script src="js/components/parallax.min.js"></script>    
+    
+</head>
+
+<body>
+    <header class="walnut-main" data-uk-parallax="{bg: 200}">
+        <div class="uk-container uk-container-center">
+            <nav class="uk-navbar nav-custom uk-margin-top" data-uk-sticky="{clsactive: 'walnut-bgc', clsinactive: 'uk-margin-top', top: -400, animation: 'uk-animation-slide-top'}">
+                <a class="uk-navbar-brand uk-hidden-small uk-text-contrast" href="index.html">Fruit Summit</a>
+                <ul class="uk-navbar-nav uk-navbar-flip">
+                    <li><a class="nav-link" href="about.html">Über uns</a></li>
+                    <li><a class="nav-link" href="services.html">Walnüsse</a></li>
+                    <li><a class="nav-link" href="products.html">Himbeere</a></li>
+                    <li><a class="nav-link" href="jobs.html">Heidelbeeren</a></li>
+                    <li><a class="nav-link" href="contact.html">Kürbiskerne</a></li>
+                    <li><a class="nav-link" href="contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
         </div>
-      
-        
-        
-    </article>
+        <div class="uk-container uk-container-center uk-text-center" data-uk-parallax="{opacity: 0, viewport: 0.7, y: 100}">
+            <h1 class="uk-text-contrast walnut-title">Walnüsse</h1>
+        </div>
+    </header>
+
+
+     <div>
+        <div class="uk-container uk-container-center">
+            <div class="uk-grid uk-margin-large-top uk-margin-large-bottom">
+                <div class="uk-width-medium-3-4 uk-text-right">
+                    <h2>Walnusskerne</h2>
+                    <p>Die <b>Echte Walnuss</b> (Juglans regia) ist ein sommergrüner Laubbaum aus der Familie der Walnussgewächse (Juglandaceae).</p>
+                    <p>Der Walnussbaum wird 15 bis 25 m, in dichteren Baumbeständen auch bis 30 m hoch. Sein Höhenwachstum endet mit ca. 60 bis 80 Jahren.kann ein Alter von 150 bis 160 Jahren erreichen.Die Weltjahresproduktion an Walnüssen lag 2011 bei 3.423.447 Tonnen. Damit ist sie seit 1961 fast um das Siebenfache gestiegen. Die Hauptproduzenten waren China, Iran, USA, die Ukraine.Die Früchte reifen in unseren Breiten Ende September bis Anfang Oktober zu Walnüssen. In Kalifornien dauert die Ernte von Ende August bis November</p>
+                </div>
+                <div class="uk-width-medium-1-4">
+                    <img src="img/walnusskerne.jpg" alt="" class="uk-border-circle uk-thumbnail">
+                </div>
+            </div>
+            <div class="uk-grid uk-margin-large-bottom">
+                <div class="uk-width-medium-1-4">
+                    <img src="img/walnuts_health_benefits.jpg" alt="" class="uk-border-circle uk-thumbnail">
+                </div>
+                <div class="uk-width-medium-3-4">
+                    <h2>Gesundheitlicher Nutzen</h2>
+                    <p>Je nachdem, ob frisch oder getrocknet, haben Walnusskerne einen Fettanteil von 42 bis 62,5 Prozent, 11 bis 16 Prozent Eiweiß, 15 bis 23 Prozent Kohlenhydrate. Walnüsse haben von allen Nussfrüchten mit 7490 mg/100 g den höchsten Gehalt an Linolensäure (einer für das Herz gesunden Omega-3-Fettsäure). Darüber hinaus sind sie reich an Tocopherolen, einer Gruppe von vier verschiedenen Vitamin-E- Formen. Dazu ist diese Frucht reich an Zink (ein wichtiges Spurenelement unter anderem für Leber und Haare) und Kalium (unter anderem für Herzmuskel), außerdem enthält sie Magnesium, Phosphor, Schwefel, Eisen, Calcium und die Vitamine A, B 1 , B 2 , B 3 , C und Pantothensäure. Der Brennwert von 100 g verzehrbarem Anteil liegt bei 2738 kJ. Ein Vergleich der Brennwerte und Fettgehalte von Nüssen findet sich unter Nussfrüchte.</p>
+                    <p>In einer Untersuchung über Mittelmeerdiäten wurde festgestellt, dass die Nüsse eine vor Diabetes (Typ 2) schützende Wirkung besitzen. Auch zeigen neuere Untersuchungen, dass schon neun Walnüsse täglich und ein Teelöffel Walnussöl den Körper vor zu hohem Blutdruck in Stresssituationen schützen können. In Kombination mit Leinöl sollen sich Walnüsse zudem auch positiv auf den Zustand der Blutgefäße auswirken. Darüber hinaus scheinen Walnüsse nicht nur Herz-Kreislauferkrankungen entgegenzuwirken, sondern auch Prostatakrebs zu bremsen.</p>
+                    <p>Halbreife Nüsse und im Frühsommer geerntetes Laub enthalten bis zu 1 Prozent Vitamin C und gehören damit zu den Vitamin-C- reichsten Pflanzenteilen in Mitteleuropa. Schon seit der Antike fanden sie vielseitige medizinische Verwendung. Noch heute werden ihre Extrakte in der Naturheilkunde eingesetzt und sollen unter anderem bei Anämie, Diabetes mellitus, Durchfall, Darmparasiten, Frostbeulen, Hautgeschwüren und Wunden helfen. Ihnen wird eine antiseptische, wurmtreibende, tonische, blutreinigende und narbenbildende Wirkung nachgesagt.</p>
+                </div>
+            </div>
+            <h2 class="uk-text-center">Unser Sortiment und Klassifizierung</h2>
+            <div class="uk-grid uk-margin-large-bottom">
+                <div class="uk-width-small-1-2 uk-width-medium-1-4">
+                    <div class="uk-thumbnail walnut-bgc">
+                        <img src="img/extra_licht_haelfte.jpg" alt="">
+                        <div>
+                            <h3 class="uk-text-center uk-text-contrast products">Extra licht Hälfte (sehr hell, beinahe weiß ) – (1/2)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-small-1-2 uk-width-medium-1-4">
+                    <div class="uk-thumbnail walnut-bgc">
+                        <img src="img/licht_halfte.jpg" alt="">
+                        <div>
+                            <h3 class="uk-text-center uk-text-contrast products">Licht Hälfte (hell aber bräunlich ) – (1/2)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-small-1-2 uk-width-medium-1-4">
+                    <div class="uk-thumbnail walnut-bgc">
+                        <img src="img/licht_viertel.jpg" alt="">
+                        <div>
+                            <h3 class="uk-text-center uk-text-contrast products">Licht Viertel – (1/4)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-small-1-2 uk-width-medium-1-4">
+                    <div class="uk-thumbnail walnut-bgc">
+                        <img src="img/licht_achtel_oder_bruch.jpg" alt="">
+                        <div>
+                            <h3 class="uk-text-center uk-text-contrast products">Licht Achtel oder Bruch – (1/8)</h3>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="uk-grid">
+                <div class="uk-width-small-1-2 uk-width-medium-1-4">
+                    <div class="uk-thumbnail walnut-bgc">
+                        <img src="img/licht_amber.jpg" alt="">
+                        <div>
+                            <h3 class="uk-text-center uk-text-contrast products">Licht Amber (hell bernsteinfarbig) – (1/2)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-small-1-2 uk-width-medium-1-4">
+                    <div class="uk-thumbnail walnut-bgc">
+                        <img src="img/amber.jpg" alt="">
+                        <div>
+                            <h3 class="uk-text-center uk-text-contrast products">Amber (bernsteinfarbig) (1/2 und MIX)</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-small-1-2 uk-width-medium-1-4">
+                    <div class="uk-thumbnail walnut-bgc">
+                        <!-- <img src="img/.jpg" alt=""> -->
+                        <div>
+                            <h3 class="uk-text-center uk-text-contrast products">Verschiedene Fraktionen (80/20; 70/30; 65/35)</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-grid uk-margin-large-bottom">
+                <div class="uk-width-medium-1-1">
+                    <h2 class="uk-text-center">BIO Walnusskerne</h2>
+                    <img src="img/wnut_bio.jpg" alt="" class="uk-align-center uk-border-circle uk-thumbnail">
+                </div>
+            </div>
+            <div class="uk-text-center">
+                <h2>Verpackung</h2>
+                <p>20 Kilo Karton 5 oder 10 Kilo Vakuumverpackung</p>
+                <div class="uk-grid uk-margin-large-bottom">
+                    <div class="uk-width-medium-1-3">
+                        <img src="img/karton.jpg" class="uk-thumbnail">
+                    </div>
+                    <div class="uk-width-medium-1-3">
+                        <img src="img/lkw.jpg" class="uk-thumbnail">
+                    </div>
+                    <div class="uk-width-medium-1-3">
+                        <img src="img/vacuumverpackung.jpg" class="uk-thumbnail">
+                    </div>
+                </div>
+            </div>
+            <footer class="walnut-bgc uk-margin-large-top uk-margin-bottom-remove">
+                <div class="uk-text-center">
+                    <a href="" class="uk-icon-button uk-icon-facebook"></a>
+                    <a href="" class="uk-icon-button uk-icon-vk"></a>
+                    <a href="" class="uk-icon-button uk-icon-twitter"></a>
+                    <a href="" class="uk-icon-button uk-icon-instagram"></a>
+                </div>
+            </footer>
+        </div>
     </div>
 
 </body>
