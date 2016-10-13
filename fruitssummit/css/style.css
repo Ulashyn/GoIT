@@ -125,10 +125,29 @@
 }
 
 .products{
-  padding: 20px;
+  padding: 0px;
+    margin: 0px; 
+    font-size: 15px;
 }
 
 footer{
   padding: 8px;
   border-radius: 4px;
+}
+/*Fonts*/
+h1, h2, h4{
+    text-transform: uppercase;
+font-family: 'Germania One', cursive;
+}
+.uk-navbar-nav>li>a{
+    font-family: 'Bigshot One', cursive;
+    
+}
+
+h3{
+    font-family: 'Vesper Libre', serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Fenix', serif;
 }
