@@ -91,6 +91,10 @@
   color: #b0d284;
 }
 
+.nav-custom .active-link{
+  color: #b0d284;
+}
+
 .uk-navbar-brand{
   font-size: 32px;
 }
@@ -126,8 +130,16 @@
 
 .products{
   padding: 0px;
-    margin: 0px; 
-    font-size: 15px;
+  margin: 0px; 
+  font-size: 15px;
+}
+
+.products:hover{
+  color: #b0d284 !important;
+}
+
+.products-a:hover{
+  text-decoration: none;
 }
 
 footer{
@@ -136,18 +148,32 @@ footer{
 }
 /*Fonts*/
 h1, h2, h4{
-    text-transform: uppercase;
-font-family: 'Germania One', cursive;
+  text-transform: uppercase;
+  font-family: 'Germania One', cursive;
 }
 .uk-navbar-nav>li>a{
-    font-family: 'Bigshot One', cursive;
+  font-family: 'Bigshot One', cursive;
     
 }
 
 h3{
-    font-family: 'Vesper Libre', serif;
-    font-weight: 700;
+  font-family: 'Vesper Libre', serif;
+  font-weight: 700;
 }
 p{
-    font-family: 'Fenix', serif;
+  font-family: 'Fenix', serif;
+}
+
+/*Lang*/
+.lang{
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.lang a{
+  color: #fff;
+}
+
+.lang .active-link{
+  color: #b0d284;
 }

@@ -6,34 +6,42 @@
     <title>demo</title>
     <link rel="stylesheet" href="css/uikit.almost-flat.min.css" />
     <link rel="stylesheet" href="css/components/sticky.min.css" />
+    <link rel="stylesheet" href="css/components/slider.almost-flat.min.css" />
+    <link rel="stylesheet" href="css/components/slidenav.almost-flat.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-<link href="https://fonts.googleapis.com/css?family=Bigshot+One|Fenix|Germania+One|Vesper+Libre:400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Bigshot+One|Fenix|Germania+One|Vesper+Libre:400,700" rel="stylesheet"> 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/uikit.min.js"></script>
     <script src="js/components/sticky.min.js"></script>
     <script src="js/components/parallax.min.js"></script>
-    <script src="js/components/slider.js"></script>
+    <script src="js/components/slider.min.js"></script>
+    <script src="js/components/lightbox.min.js"></script>
 </head>
 
 <body>
     <header class="walnut-main" data-uk-parallax="{bg: 200}">
+        <div class="uk-container uk-container-center uk-text-right lang">
+            <a class="active-link" href="">DE</a>
+            <a  href="">EN</a>
+        </div>
+        <div class="uk-container uk-container-center uk-text-center" data-uk-parallax="{opacity: 0, viewport: 0.7, y: 100}">
+            <h1 class="uk-text-contrast walnut-title">Walnüsse</h1> 
+        </div>
+    </header>
+    <div class="walnut-bgc" data-uk-sticky="{top: -50, animation: 'uk-animation-slide-top'}">
         <div class="uk-container uk-container-center">
-            <nav class="uk-navbar nav-custom uk-margin-top" data-uk-sticky="{clsactive: 'walnut-bgc', clsinactive: 'uk-margin-top', top: -400, animation: 'uk-animation-slide-top'}"> <a class="uk-navbar-brand uk-hidden-small uk-text-contrast" href="index.html">Fruit Summit</a>
+            <nav class="uk-navbar nav-custom"> <a class="uk-navbar-brand uk-hidden-small uk-text-contrast" href="index.html">Fruit Summit</a>
                 <ul class="uk-navbar-nav uk-navbar-flip">
                     <li><a class="nav-link" href="about.html">Über uns</a></li>
-                    <li><a class="nav-link" href="services.html">Walnüsse</a></li>
+                    <li><a class="nav-link active-link" href="services.html">Walnüsse</a></li>
                     <li><a class="nav-link" href="products.html">Himbeere</a></li>
                     <li><a class="nav-link" href="jobs.html">Heidelbeeren</a></li>
                     <li><a class="nav-link" href="contact.html">Kürbiskerne</a></li>
                     <li><a class="nav-link" href="contact.html">Kontakt</a></li>
-                    <li><a class="nav-link" href="about.html">ENG</a></li>
-                    <li><a class="nav-link" href="services.html">DE</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="uk-container uk-container-center uk-text-center" data-uk-parallax="{opacity: 0, viewport: 0.7, y: 100}">
-            <h1 class="uk-text-contrast walnut-title">Walnüsse</h1> </div>
-    </header>
+    </div>
         <div class="uk-container uk-container-center">
             <div class="uk-grid uk-margin-large-top uk-margin-large-bottom">
                 <div class="uk-width-medium-3-4 uk-text-justify">
@@ -41,10 +49,14 @@
                     <p>Die <b>Echte Walnuss</b> (Juglans regia) ist ein sommergrüner Laubbaum aus der Familie der Walnussgewächse (Juglandaceae).</p>
                     <p>Der Walnussbaum wird 15 bis 25 m, in dichteren Baumbeständen auch bis 30 m hoch. Sein Höhenwachstum endet mit ca. 60 bis 80 Jahren.kann ein Alter von 150 bis 160 Jahren erreichen.Die Weltjahresproduktion an Walnüssen lag 2011 bei 3.423.447 Tonnen. Damit ist sie seit 1961 fast um das Siebenfache gestiegen. Die Hauptproduzenten waren China, Iran, USA, die Ukraine.Die Früchte reifen in unseren Breiten Ende September bis Anfang Oktober zu Walnüssen.<br> In Kalifornien dauert die Ernte von Ende August bis November</p>
                 </div>
-                <div class="uk-width-medium-1-4"> <img src="img/walnusskerne.jpg" alt="" class="uk-border-circle uk-thumbnail"> </div>
+                <div class="uk-width-medium-1-4">
+                    <img src="img/walnusskerne.jpg" alt="" class="uk-border-circle uk-thumbnail">
+                </div>
             </div>
             <div class="uk-grid uk-margin-large-bottom">
-                <div class="uk-width-medium-1-4"> <img src="img/walnuts_health_benefits.jpg" alt="" class="uk-border-circle uk-thumbnail"> </div>
+                <div class="uk-width-medium-1-4">
+                    <img src="img/walnuts_health_benefits.jpg" alt="" class="uk-border-circle uk-thumbnail">
+                </div>
                 <div class="uk-width-medium-3-4 uk-text-justify">
                     <h2>Gesundheitlicher Nutzen</h2>
                     <p>Je nachdem, ob frisch oder getrocknet, haben Walnusskerne einen Fettanteil von 42 bis 62,5 Prozent, 11 bis 16 Prozent Eiweiß, 15 bis 23 Prozent Kohlenhydrate. Walnüsse haben von allen Nussfrüchten mit 7490 mg/100 g den höchsten Gehalt an Linolensäure (einer für das Herz gesunden Omega-3-Fettsäure). Darüber hinaus sind sie reich an Tocopherolen, einer Gruppe von vier verschiedenen Vitamin-E- Formen. Dazu ist diese Frucht reich an Zink (ein wichtiges Spurenelement unter anderem für Leber und Haare) und Kalium (unter anderem für Herzmuskel), außerdem enthält sie Magnesium, Phosphor, Schwefel, Eisen, Calcium und die Vitamine A, B 1 , B 2 , B 3 , C und Pantothensäure. Der Brennwert von 100 g verzehrbarem Anteil liegt bei 2738 kJ. Ein Vergleich der Brennwerte und Fettgehalte von Nüssen findet sich unter Nussfrüchte.<a class="hide" data-uk-toggle="{target:'#Gesundheitlicher'}">Mehr zum Thema</a></p>
@@ -57,112 +69,145 @@
             </div>
             <h2 class="uk-text-center">Unser Sortiment und Klassifizierung</h2>
     
-<div class="uk-grid uk-margin-large-bottom">
-    <div class="uk-width-medium-1-5">
-        <div class="uk-thumbnail walnut-bgc"> <img src="img/extra_licht_haelfte.jpg" alt="">
-            <div>
-                <h3 class="uk-text-center uk-text-contrast products">Extra licht Hälfte (sehr hell, beinahe weiß ) – (1/2)</h3> </div>
-        </div>
-    </div>
-    <div class="uk-width-medium-4-5">SLIDER</div>
-</div>
-            
-<div class="uk-grid uk-margin-large-bottom">
-    <div class="uk-width-medium-1-5">
-        <div class="uk-thumbnail walnut-bgc"> <img src="img/licht_halfte.jpg" alt="">
-            <div>
-                <h3 class="uk-text-center uk-text-contrast products">Licht Hälfte (hell aber bräunlich ) – (1/2)</h3> </div>
-        </div>
-    </div>
-    <div class="uk-width-medium-4-5">SLIDER</div>
-</div>                            
-            
-<div class="uk-grid uk-margin-large-bottom">
-    <div class="uk-width-medium-1-5">
-        <div class="uk-thumbnail walnut-bgc"> <img src="img/licht_amber.jpg" alt="">
-            <div>
-                <h3 class="uk-text-center uk-text-contrast products">Licht Amber (hell bernsteinfarbig) – (1/2)</h3> </div>
-        </div>
-    </div>
-    <div class="uk-width-medium-4-5">SLIDER</div>
-</div>                            
-            
-<div class="uk-grid uk-margin-large-bottom">
-    <div class="uk-width-medium-1-5">
-        <div class="uk-thumbnail walnut-bgc"> <img src="img/amber.jpg" alt="">
-            <div>
-                <h3 class="uk-text-center uk-text-contrast products">Amber (bernsteinfarbig) (1/2 und MIX)</h3> </div>
-        </div>
-    </div>
-    <div class="uk-width-medium-4-5">SLIDER</div>
-</div>                            
-            
-<div class="uk-grid uk-margin-large-bottom">
-    <div class="uk-width-medium-1-5">
-        <div class="uk-thumbnail walnut-bgc"> <img src="img/licht_viertel.jpg" alt="">
-            <div>
-                <h3 class="uk-text-center uk-text-contrast products">Licht Viertel – (1/4)</h3> </div>
-        </div>
-    </div>
-    <div class="uk-width-medium-4-5">SLIDER</div>
-</div>                                                       
-                          
-<div class="uk-grid uk-margin-large-bottom">
-    <div class="uk-width-medium-1-5">
-        <div class="uk-thumbnail walnut-bgc"> <img src="img/licht_achtel_oder_bruch.jpg" alt="">
-            <div>
-                <h3 class="uk-text-center uk-text-contrast products">Licht Achtel oder Bruch – (1/8)</h3> </div>
-        </div>
-    </div>
-    <div class="uk-width-medium-4-5">SLIDER</div>
-</div>                                 
-    
-<div class="uk-grid uk-margin-large-bottom">
-    <div class="uk-width-medium-1-5">
-        <div class="uk-thumbnail walnut-bgc"> <img src="" alt="">
-            <div>
-                <h3 class="uk-text-center uk-text-contrast products">Verschiedene Fraktionen (80/20; 70/30; 65/35)</h3> </div>
-        </div>
-    </div>
-    <div class="uk-width-medium-4-5">SLIDER</div>
-</div>  
-                         
-<div class="uk-grid uk-margin-large-bottom">
-    <div class="uk-width-medium-1-5">
-        <div class="uk-thumbnail walnut-bgc"> <img src="img/wnut_bio.jpg" alt="">
-            <div>
-                <h3 class="uk-text-center uk-text-contrast products">BIO Walnusskerne</h3> </div>
-        </div>
-    </div>
-    <div class="uk-width-medium-4-5">SLIDER</div>
-</div>                         
-                            
-
-            
+            <div class="uk-slidenav-position uk-margin-large-bottom" data-uk-slider>
+                <div class="uk-slider-container">
+                    <ul class="uk-slider uk-grid-width-medium-1-5">
+                        <li>
+                            <div class="uk-thumbnail walnut-bgc">
+                                <img src="img/extra_licht_haelfte.jpg" alt="">
+                                <div>
+                                    <a class="products-a" href="img/extra_licht_haelfte.jpg" data-uk-lightbox title="">
+                                        <h3 class="uk-text-center uk-text-contrast products">Extra licht Hälfte (sehr hell, beinahe weiß ) – (1/2)</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-thumbnail walnut-bgc">
+                                <img src="img/licht_halfte.jpg" alt="">
+                                <div>
+                                    <a class="products-a" href="img/licht_halfte.jpg" data-uk-lightbox title="">
+                                        <h3 class="uk-text-center uk-text-contrast products">Licht Hälfte (hell aber bräunlich ) – (1/2)</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-thumbnail walnut-bgc">
+                                <img src="img/licht_amber.jpg" alt="">
+                                <div>
+                                    <a class="products-a" href="img/licht_amber.jpg" data-uk-lightbox title="">
+                                        <h3 class="uk-text-center uk-text-contrast products">Licht Amber (hell bernsteinfarbig) – (1/2)</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-thumbnail walnut-bgc">
+                                <img src="img/amber.jpg" alt="">
+                                <div>
+                                    <a class="products-a" href="img/amber.jpg" data-uk-lightbox title="">
+                                        <h3 class="uk-text-center uk-text-contrast products">Amber (bernsteinfarbig) (1/2 und MIX)</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-thumbnail walnut-bgc">
+                                <img src="img/licht_viertel.jpg" alt="">
+                                <div>
+                                    <a class="products-a" href="img/licht_viertel.jpg" data-uk-lightbox title="">
+                                        <h3 class="uk-text-center uk-text-contrast products">Licht Viertel – (1/4)</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-thumbnail walnut-bgc">
+                                <img src="img/licht_achtel_oder_bruch.jpg" alt="">
+                                <div>
+                                    <a class="products-a" href="img/licht_achtel_oder_bruch.jpg" data-uk-lightbox title="">
+                                        <h3 class="uk-text-center uk-text-contrast products">Licht Achtel oder Bruch – (1/8)</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-thumbnail walnut-bgc">
+                                <img src="" alt="">
+                                <div>
+                                    
+                                        <h3 class="uk-text-center uk-text-contrast products">Verschiedene Fraktionen (80/20; 70/30; 65/35)</h3>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-thumbnail walnut-bgc">
+                                <img src="img/wnut_bio.jpg" alt="">
+                                <div>
+                                    <a class="products-a" href="img/wnut_bio.jpg" data-uk-lightbox title="">
+                                        <h3 class="uk-text-center uk-text-contrast products">BIO Walnusskerne</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <a href="" class="uk-slidenav uk-slidenav-previous" data-uk-slider-item="previous"></a>
+                <a href="" class="uk-slidenav uk-slidenav-next" data-uk-slider-item="next"></a>
+            </div>
+ 
             <div class="uk-text-center">
                 <h2>Verpackung</h2>
                 <p>20 Kilo Karton, 5 oder 10 Kilo Vakuumverpackung</p>
                 <div class="uk-grid uk-margin-large-bottom">
-                    <div class="uk-width-medium-1-6"> <img src="img/karton.jpg" class="uk-thumbnail"> </div>
-                    <div class="uk-width-medium-1-6"> <img src="img/lkw.jpg" class="uk-thumbnail"> </div>
-                    <div class="uk-width-medium-1-6"> <img src="img/vacuumverpackung.jpg" class="uk-thumbnail"> </div>
-                    <div class="uk-width-medium-1-6"> <img src="img/karton.jpg" class="uk-thumbnail"> </div>
-                    <div class="uk-width-medium-1-6"> <img src="img/lkw.jpg" class="uk-thumbnail"> </div>
-                    <div class="uk-width-medium-1-6"> <img src="img/vacuumverpackung.jpg" class="uk-thumbnail"> </div>
+                    <div class="uk-width-medium-1-6">
+                        <a href="img/karton.jpg" data-uk-lightbox title="">
+                            <img src="img/karton.jpg" class="uk-thumbnail">
+                        </a>
+                    </div>
+                    <div class="uk-width-medium-1-6">
+                        <a href="img/lkw.jpg" data-uk-lightbox title="">
+                            <img src="img/lkw.jpg" class="uk-thumbnail">
+                        </a>
+                    </div>
+                    <div class="uk-width-medium-1-6">
+                        <a href="img/vacuumverpackung.jpg" data-uk-lightbox title="">
+                            <img src="img/vacuumverpackung.jpg" class="uk-thumbnail">
+                        </a>
+                    </div>
+                    <div class="uk-width-medium-1-6">
+                        <a href="img/karton.jpg" data-uk-lightbox title="">
+                            <img src="img/karton.jpg" class="uk-thumbnail">
+                        </a>
+                    </div>
+                    <div class="uk-width-medium-1-6">
+                        <a href="img/lkw.jpg" data-uk-lightbox title="">
+                            <img src="img/lkw.jpg" class="uk-thumbnail">
+                        </a>
+                    </div>
+                    <div class="uk-width-medium-1-6">
+                        <a href="img/vacuumverpackung.jpg" data-uk-lightbox title="">
+                            <img src="img/vacuumverpackung.jpg" class="uk-thumbnail">
+                        </a>
+                    </div>
                 </div>
             </div>
                            
                            
-                            </div>
-                        </div>
-            <footer class="walnut-bgc uk-margin-large-top uk-margin-bottom-remove">
-                <div class="uk-text-center">
-                    <a href="" class="uk-icon-button uk-icon-facebook"></a>
-                    <a href="" class="uk-icon-button uk-icon-google-plus"></a>
-                    <a href="" class="uk-icon-button uk-icon-twitter"></a>
-                    <a href="" class="uk-icon-button uk-icon-instagram"></a>
-            </footer>
+    </div>
+
+    <footer class="walnut-bgc uk-margin-large-top uk-margin-bottom-remove">
+        <div class="uk-text-center">
+            <a href="" class="uk-icon-button uk-icon-facebook"></a>
+            <a href="" class="uk-icon-button uk-icon-google-plus"></a>
+            <a href="" class="uk-icon-button uk-icon-twitter"></a>
+            <a href="" class="uk-icon-button uk-icon-instagram"></a>
+        </div>
+    </footer>
 
 </body>
-<script src="js/page.js"></script>
+<!-- <script src="js/page.js"></script> -->
 </html>
