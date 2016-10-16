@@ -14,7 +14,7 @@ function degToRad(degree) {
 function renderTime() {
 	var now = new Date();
 	var today = now.toDateString();
-	var time = now.toLocaleTimeString();
+	var time = now.toLocaleTimeString('en-GB');
 	var hours = now.getHours();
 	var minutes = now.getMinutes();
 	var seconds = now.getSeconds();
