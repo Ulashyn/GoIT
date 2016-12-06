@@ -169,3 +169,18 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
+
+.ultra-bot-pad{
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+
+.h400{
+	height: 420px;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.h400{
+	height: 620px;
+}
+}
