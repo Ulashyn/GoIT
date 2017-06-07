@@ -34,7 +34,8 @@ $(document).ready(function(){
       function() {
         $('.skill-anim img').each(function(i, el) {
           setTimeout(function() {
-            $(el).toggleClass("animated flip");
+            $(el).toggleClass("animated flip").addClass("flip");
+            
           }, i * 150);
         });
       },5000
@@ -49,6 +50,7 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 });
 
 // WOWjs
+
 var wow = new WOW(
   {
     offset:       50          // default
