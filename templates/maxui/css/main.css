@@ -1,3 +1,11 @@
+a{
+	color: #176dbd;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
 .m-color{
 	color: #19232d;
 }
@@ -9,22 +17,29 @@
 }
 
 .header{
-	height: 15em;
-	background: url(../img/banner-1.jpg) 0 -200px no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
+	height: 42px;
+	position: relative;
+	padding: 30px 0;
 }
 
-.header .header__logo{
-	color: #f2f2f2;
-	text-shadow: 0px 0px 4px rgba(255, 255, 255, 1);
+.header .header__logo {
+	color: #19232d;
 	font-size: 48px;
 	text-transform: uppercase;
 	display: block;
 }
 
-.header .header__button{
-	 display: block;
+.header .header__button {
+	 background-color: #29a755;
+	 color: #fff;
+}
+
+.header .header__button:hover {
+	text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.14);
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.14);
+    background: #2dbc5f;
 }
 
 .fluid-bg{
@@ -78,14 +93,18 @@
     outline: 0;
 }
 
-.reg-box{
+/* Main */
+.reg-box {
 	background: #19232d;
 }
 
 .chart {
-  height: 300px;
-  padding: 20px;
-  background: #19232d;
+	height: 300px;
+	padding: 20px;
+}
+
+.max-icon {
+	color: #2dbc5f;
 }
 
 .contact-box{
@@ -170,17 +189,6 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.8s;
 }
 
-.ultra-bot-pad{
-	padding-bottom: 20000px;
-	margin-bottom: -20000px;
-}
-
-.h400{
-	height: 420px;
-}
-
-@media (min-width: 480px) and (max-width: 767px) {
-	.h400{
-	height: 620px;
-}
-}
+.bino-thumbnail{
+	border: 1px solid #19232d;
+};

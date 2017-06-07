@@ -16,18 +16,18 @@
         <script src="js/components/sticky.min.js"></script>
         <script src="js/components/parallax.min.js"></script>
 		<!-- Another lib -->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     </head>
     <body>
-	    <div class="header">
+	    <div class="header gradient-bg m-color">
 	    	<div class="uk-container uk-container-center">
 	    		<div class="uk-grid">
-	    			<div class="uk-width-medium-7-10 uk-vertical-align">
-	    				<h1 class="uk-vertical-align-middle header__logo">Binomarket</h1>	
+	    			<div class="uk-width-small-7-10">
+	    				<h1 class="header__logo">Binomarket</h1>	
 	    			</div>
-	    			<div class="uk-width-medium-3-10 uk-vertical-align">
-	    				<div class="">
-	    					<a class="uk-button uk-button-large uk-vertical-align-middle">Регистрация</a>				
+	    			<div class="uk-width-small-3-10">
+	    				<div>
+	    					<a class="uk-button uk-button-large header__button uk-float-right">Регистрация</a>				
 	    				</div>
 	    			</div>
 	    		</div>
@@ -120,27 +120,53 @@
 	    		</div>
 	    	</div>
 	    </div>
-	    <div class="fluid-bg">
+	    <div class="gradient-bg m-color">
 		    <div class="uk-container uk-container-center">
 		    	<div class="uk-grid uk-margin-large-top uk-margin-large-bottom">
-			    	<div class="uk-width-medium-1-2 uk-width-large-1-2">
-				    	<h2 class="uk-text-center uk-text-contrast uk-heading-large">Статистика сигналов</h2>
-				    	<p class="uk-text-large uk-text-contrast uk-text-justify">Сигналы — это результат совместной работы экспертов с помощью современных методов технического и фундаментального анализа. Задача торговых сигналов состоит в том, чтобы подсказать нашим трейдерам наиболее выгодные точки для открытия опциона. Благодаря данному сервису наши клиенты не только экономят свое время, но и выходят на стабильный, высокий уровень дохода. На диаграмме отображается статистика торговых сигналов за месяц.
-				    	</p>
-			    	</div>
 			    	<div class="uk-width-medium-1-2 uk-width-large-1-2">
 			    		<div class='chart' id='p1'>
     						<canvas id='c1'></canvas>
   						</div>
 			    	</div>
+			    	<div class="uk-width-medium-1-2 uk-width-large-1-2">
+				    	<h2 class="uk-text-center">Торговля по готовым сигналам</h2>
+				    	<p class="uk-text-large uk-text-justify">
+				    		Самый популярный сервис наших клиентов. Если Вы новичок или у Вас нет времени, торговые сигналы это то что Вам нужно. Аналитики сами найдут для Вас прибыльную сделку и отправят Вам простую инструкцию к действию.
+				    	</p>
+				    	<ul class="uk-list">
+				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Удобно</li>
+				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Просто</li>
+				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Стабильно</li>
+				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Эффективно</li>
+				    	</ul>
+			    	</div>
+		    	</div>
+		    	<div class="uk-grid uk-margin-large-top uk-margin-large-bottom">
+		    		<div class="uk-width-medium-1-2 uk-width-large-1-2">
+				    	<h2 class="uk-text-center">Наши клиенты выбирают</h2>
+				    	<p class="uk-text-large uk-text-justify">
+				    		Каждый трейдер — это личность. К каждому требуется индивидуальный подход. Поэтому мы подготовили большой спектр эффективных торговых решений для каждого из вас.
+				    	<ul class="uk-list">
+				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Торговые сигналы</li>
+				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Профессиональное обучение</li>
+				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Торговля с экспертом</li>
+				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Доверительное управление</li>
+				    	</ul>
+			    	</div>
+			    	<div class="uk-width-medium-1-2 uk-width-large-1-2">
+				    	<h2 class="uk-text-center">Выбор трейдеров</h2>
+				    	<div class='chart' id='p2'>
+    						<canvas id='c2'></canvas>
+  						</div>
+			    	</div>
 		    	</div>
 		    </div>
 	    </div>
-	    <div class="gradient-bg m-color">
+	    <div class="fluid-bg">
 		    <div class="uk-container uk-container-center">
 			   	<div class="uk-grid uk-margin-large-top uk-margin-large-bottom" data-uk-margin>
 			    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center uk-overflow-hidden h400">
-				    	<div class="uk-thumbnail fluid-bg ultra-bot-pad">
+				    	<div class="uk-thumbnail fluid-bg bino-thumbnail">
 						    <img src="img/care.jpg" alt="">
 						    <div class="uk-thumbnail-caption">
 						    	<h2 class="uk-text-contrast">Защита трейдера</h2>
@@ -149,7 +175,7 @@
 						</div>
 			    	</div>
 			    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center uk-overflow-hidden h400">
-				    	<div class="uk-thumbnail fluid-bg ultra-bot-pad">
+				    	<div class="uk-thumbnail fluid-bg bino-thumbnail">
 						    <img src="img/handshake.jpg" alt="">
 						    <div class="uk-thumbnail-caption">
 						    	<h2 class="uk-text-contrast">Доверительное управление</h2>
@@ -158,7 +184,7 @@
 						</div>
 			    	</div>
 			    	<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center uk-overflow-hidden h400">
-				    	<div class="uk-thumbnail fluid-bg ultra-bot-pad">
+				    	<div class="uk-thumbnail fluid-bg bino-thumbnail">
 						    <img src="img/stairs-web.jpg" alt="">
 						    <div class="uk-thumbnail-caption">
 						    	<h2 class="uk-text-contrast">Персональное обучение</h2>
@@ -169,7 +195,7 @@
 			   	</div>
 			</div>
 		</div>
-		<footer class="fluid-bg">
+		<footer class="gradient-bg m-color">
 			<div class="uk-container uk-container-center uk-text-center">
 				<div class="uk-margin-top uk-margin-bottom">
 					<ul class="social-network social-circle">
@@ -182,7 +208,7 @@
 	            </div>
 			</div>
 			<div class="uk-container uk-container-center">
-				<div class="uk-grid uk-margin-bottom uk-text-contrast" data-uk-margin>
+				<div class="uk-grid uk-margin-bottom" data-uk-margin>
 					<div class="uk-width-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
 						<p>© 2016 Binomarket. Все права защищены.</p>
 					</div>
