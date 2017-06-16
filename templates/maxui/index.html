@@ -3,20 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
         <title>Binomarket</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="css/uikit.min.css" />
         <link rel="stylesheet" href="css/components/slideshow.min.css" />
         <link rel="stylesheet" href="css/components/slidenav.min.css" />
         <link rel="stylesheet" href="css/components/sticky.min.css" />
         <link rel="stylesheet" href="css/main.css" />
-        <script src="js/jquery-3.1.0.min.js"></script>
-        <script src="js/uikit.min.js"></script>
-        <script src="js/components/slideshow.min.js"></script>
-        <script src="js/components/slideshow-fx.min.js"></script>
-        <script src="js/components/grid.min.js"></script>
-        <script src="js/components/sticky.min.js"></script>
-        <script src="js/components/parallax.min.js"></script>
-		<!-- Another lib -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     </head>
     <body>
 	    <div class="header gradient-bg m-color">
@@ -124,34 +116,37 @@
 		    <div class="uk-container uk-container-center">
 		    	<div class="uk-grid uk-margin-large-top uk-margin-large-bottom">
 			    	<div class="uk-width-medium-1-2 uk-width-large-1-2">
+			    		<h2 class="uk-text-center">Прибыль по сигналам за месяц</h2>
 			    		<div class='chart' id='p1'>
     						<canvas id='c1'></canvas>
   						</div>
 			    	</div>
-			    	<div class="uk-width-medium-1-2 uk-width-large-1-2">
-				    	<h2 class="uk-text-center">Торговля по готовым сигналам</h2>
+			    	<div class="uk-width-medium-1-2 uk-width-large-1-2 uk-text-center">
+				    	<h2 class="uk-text-center box-head">Торговля по готовым сигналам</h2>
 				    	<p class="uk-text-large uk-text-justify">
 				    		Самый популярный сервис наших клиентов. Если Вы новичок или у Вас нет времени, торговые сигналы это то что Вам нужно. Аналитики сами найдут для Вас прибыльную сделку и отправят Вам простую инструкцию к действию.
 				    	</p>
-				    	<ul class="uk-list">
-				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Удобно</li>
-				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Просто</li>
-				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Стабильно</li>
-				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Эффективно</li>
+				    	<ul class="uk-list uk-text-left">
+				    		<li><i class="uk-icon-check-circle-o max-icon"></i> Удобно</li>
+				    		<li><i class="uk-icon-check-circle-o uk-icon-small max-icon"></i> Просто</li>
+				    		<li><i class="uk-icon-check-circle-o uk-icon-small max-icon"></i> Стабильно</li>
+				    		<li><i class="uk-icon-check-circle-o uk-icon-small max-icon"></i> Эффективно</li>
 				    	</ul>
+				    	<button class="uk-button uk-button-primary max-btn">Кнопка</button>
 			    	</div>
 		    	</div>
 		    	<div class="uk-grid uk-margin-large-top uk-margin-large-bottom">
-		    		<div class="uk-width-medium-1-2 uk-width-large-1-2">
-				    	<h2 class="uk-text-center">Наши клиенты выбирают</h2>
+		    		<div class="uk-width-medium-1-2 uk-width-large-1-2 uk-text-center">
+				    	<h2 class="uk-text-center box-head">Наши клиенты выбирают</h2>
 				    	<p class="uk-text-large uk-text-justify">
 				    		Каждый трейдер — это личность. К каждому требуется индивидуальный подход. Поэтому мы подготовили большой спектр эффективных торговых решений для каждого из вас.
-				    	<ul class="uk-list">
-				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Торговые сигналы</li>
-				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Профессиональное обучение</li>
-				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Торговля с экспертом</li>
-				    		<li><i class="uk-icon-check-square-o uk-icon-small max-icon"></i> Доверительное управление</li>
+				    	<ul class="uk-list uk-text-left">
+				    		<li><i class="uk-icon-check-circle-o uk-icon-small max-icon"></i> Торговые сигналы</li>
+				    		<li><i class="uk-icon-check-circle-o uk-icon-small max-icon"></i> Профессиональное обучение</li>
+				    		<li><i class="uk-icon-check-circle-o uk-icon-small max-icon"></i> Торговля с экспертом</li>
+				    		<li><i class="uk-icon-check-circle-o uk-icon-small max-icon"></i> Доверительное управление</li>
 				    	</ul>
+				    	<button class="uk-button uk-button-primary max-btn">Кнопка</button>
 			    	</div>
 			    	<div class="uk-width-medium-1-2 uk-width-large-1-2">
 				    	<h2 class="uk-text-center">Выбор трейдеров</h2>
@@ -222,6 +217,15 @@
 			</div>
 		</footer>
 		
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/components/slideshow.min.js"></script>
+        <script src="js/components/slideshow-fx.min.js"></script>
+        <script src="js/components/grid.min.js"></script>
+        <script src="js/components/sticky.min.js"></script>
+        <script src="js/components/parallax.min.js"></script>
+		<!-- Another lib -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

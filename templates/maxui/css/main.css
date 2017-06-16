@@ -1,3 +1,23 @@
+html {
+    height: 100%;
+    background: #f6f6f6;
+    min-height: 100%;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.42857;
+    font-weight:300;
+    color: #5e5e5e;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    text-align: left;
+    min-height: 100%;
+    min-width:1000px;
+}
+
 a{
 	color: #176dbd;
 }
@@ -79,7 +99,7 @@ a:hover{
 
 .uk-dropdown-navbar {
     margin-top: 0;
-    background: #19232D;
+    background: #19232d;
     color: #efefef;
 }
 
@@ -98,6 +118,12 @@ a:hover{
 	background: #19232d;
 }
 
+.box-head {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #19232d;
+}
+
 .chart {
 	height: 300px;
 	padding: 20px;
@@ -105,6 +131,25 @@ a:hover{
 
 .max-icon {
 	color: #2dbc5f;
+	font-size: 2em;
+}
+
+.max-btn {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #19232D;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.max-btn:hover {
+  background: #2f3842;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 3px 5px #666666;
+  -moz-box-shadow: 0px 3px 5px #666666;
+  box-shadow: 0px 3px 5px #666666;
 }
 
 .contact-box{
