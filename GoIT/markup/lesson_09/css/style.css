@@ -479,11 +479,10 @@
 
 
 	.menu--mobile{
-	border: 1px solid #051116;
-	border-radius: 8px;
-	background: rgba(54, 41, 62, 0.9);
-	text-align: center;
-	
+		border: 1px solid #051116;
+		border-radius: 8px;
+		background: rgba(54, 41, 62, 0.9);
+		text-align: center;
 	}
 
 	.menu--mobile .menu__item{
@@ -494,7 +493,7 @@
 	}
 
 	.menu--mobile .menu__item:hover{
-	background-color: rgba(0, 0, 0, 0.3);
+		background-color: rgba(0, 0, 0, 0.3);
 	}
 
 	.slider{
@@ -502,8 +501,8 @@
 	}
 
 	.slider__item{
-	padding: 0 35px;
-}
+		padding: 0 35px;
+	}
 
 	.slider__image{
 		display: none;
@@ -564,7 +563,6 @@
 @media (min-width: 768px) and (max-width: 959px) {
 	.wrapper{
 		width: 728px;
-		margin: 0;
 	}
 
 	.logo{

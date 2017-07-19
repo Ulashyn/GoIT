@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS 09-10</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="content clearfix">
+            <li><a href="#">Nav 1</a></li>
+            <li><a href="#">Nav 2</a></li>
+            <li class="dropdown">
+                <a href="#">Nav 3</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Nav 3.1</a></li>
+                    <li><a href="#">Nav 3.2</a></li>
+                    <li><a href="#">Nav 3.3</a></li>
+                    <li class="dropdown">
+                        <a href="#">Nav 3.4</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Nav 3.4.1</a></li>
+                            <li class="dropdown">
+                                <a href="#">Nav 3.4.2</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Nav 3.4.2.1</a></li>
+                                    <li><a href="#">Nav 3.4.2.2</a></li>
+                                    <li><a href="#">Nav 3.4.2.3</a></li>
+                                    <li><a href="#">Nav 3.4.2.4</a></li>
+                                    <li><a href="#">Nav 3.4.2.5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Nav 3.4.3</a></li>
+                            <li><a href="#">Nav 3.4.4</a></li>
+                            <li><a href="#">Nav 3.4.5</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Nav 3.5</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Nav 4</a></li>
+            <li><a href="#">Nav 5</a></li>
+        </ul>
+    </nav>
+	<div class="wrapper">
+		<!-- jCarousel -->
+		<div class="jcarousel">
+			<ul>
+				<li><img src="img/1.jpg" alt=""></li>
+				<li><img src="img/2.jpg" alt=""></li>
+				<li><img src="img/3.jpg" alt=""></li>
+				<li><img src="img/4.jpg" alt=""></li>
+			</ul>
+		    <!-- Controls -->
+		    <a class="jcarousel-prev" href="#"></a>
+		    <a class="jcarousel-next" href="#"></a>
+		    <!-- Pagination -->
+		    <div class="jcarousel-pagination">
+		        <!-- Pagination items will be generated in here -->
+		    </div>
+		</div>
+
+		<!-- jQuerySelectBox -->
+		<div class="clearfix">
+			<select name="" id="">
+			    <option value='saf'>Safari</option>
+			    <option value='fire'>Firefox</option>
+			    <option value='op'>Opera</option>
+			    <option value='chr'>Chrome</option>
+			    <option value='Netscape'>Netscape Navigator</option>
+			    <option value='Camino'>Camino</option>
+			    <option value='Sm'>SeaMonkey</option>
+			    <option value='k'>K-Meleon</option>
+			    <option value='Galeon'>Galeon</option>
+			    <option value='Konqueror'>Konqueror</option>
+			    <option value='Maxthon'>Maxthon Browser</option>
+			    <option value='Flock'>Flock </option>
+			    <option value='Amaya'>Amaya</option>
+			    <option value='Dragon'>Comodo Dragon</option>
+			    <option value='Avant'>Avant Browser</option>
+			    <option value='Epiphany'>Epiphany</option>
+			    <option value='Lynx'>Lynx</option>
+			    <option value='RockMelt'>RockMelt</option>
+			    <option value='Voyager'>Voyager</option>
+			    <option value='Dillo'>Dillo Web Browser</option>
+			    <option value='ie'>Microsoft Internet explorer</option>
+			    <option value='Slim'>Slim Browser</option>
+			</select>
+		</div>
+
+		<!-- jQueryCheckboxJS -->
+		<div>
+			<form action="#">
+				<h3>Custom JS-checkbox</h3>
+				<div><label for="ch1">label 1</label><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
+				<div><label for="ch2">label 2</label><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></div>
+				<div><label for="ch3">label 3</label><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></div>
+			</form>
+		</div>
+		<!-- CheckboxCSS -->
+		<div class="css-chk">
+			<form action="#">
+				<h3>Custom CSS-checkbox</h3>
+				<div><input type="checkbox" id="test-check1" /><label for="test-check1">Чекбокс 1:</label></div>
+				<div><input type="checkbox" id="test-check2" /><label for="test-check2">Чекбокс 2:</label></div>
+				<div><input type="checkbox" id="test-check3" /><label for="test-check3">Чекбокс 3:</label></div>
+			</form>
+		</div>
+        <p class="test">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum amet est esse libero, officia nam dolorem quae vitae, suscipit iusto, optio consequuntur animi alias laudantium obcaecati, similique exercitationem! Repellat numquam ratione veritatis quibusdam quae assumenda fugit ab esse et deleniti labore, reiciendis beatae iste totam sit, nihil dolorem ipsa. Quas.
+        </p>
+	
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.browser.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel-core.js"></script>
+	<script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
+    <script type="text/javascript" src="js/jquery.checkbox.js"></script>
+	<script type="text/javascript" src="js/jquery.color.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
