@@ -36,20 +36,17 @@ $(document).ready(function() {
 
 // jQueryColor
 $(document).ready(function(){
-console.log('color');
-$('.test').mouseenter(
+$('.sub-menu').mouseenter(
   function () {
-  	console.log("enter");
 	$(this).animate({
-		backgroundColor:"#03C",
+		backgroundColor:"#FF6464",
     }, 500 );
 });
 
-$('.test').mouseleave(
+$('.sub-menu').mouseleave(
   function () {
-  	console.log("leave");
 	$(this).animate({
-		backgroundColor:"#0CF",
+		backgroundColor:"#E14B4B",
     }, 500 );
 });
 

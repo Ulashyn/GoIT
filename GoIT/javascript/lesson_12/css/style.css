@@ -1,0 +1,75 @@
+body {
+
+	background-color: #eeeeee;
+}
+
+h1 {
+
+	font-size: 22px;
+	margin: 0;
+}
+
+p {
+	margin-left: 13px;
+	font-size: 16px;
+}
+
+li {
+	font-size: 16px;
+}
+
+.container {
+	width: 412px;
+	margin: 4px auto 47px;
+	padding: 50px 50px 68px;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 5px 3px rgba(213,213,213,1);
+	-moz-box-shadow: 0px 0px 5px 3px rgba(213,213,213,1);
+	box-shadow: 0px 0px 5px 3px rgba(213,213,213,1);
+}
+
+.header {
+	text-align: center;
+	border-bottom: 1px solid #7a7a7a;
+}
+
+.header>p {
+
+	text-align: left;
+}
+
+.portrait {
+	border-radius: 50%;
+	width: 130px;
+	margin-top: 25px;
+}
+
+.content {
+	padding: 11px 0 3px;
+	border-bottom: 1px solid #7a7a7a;
+}
+
+
+.content-custom {
+	padding-bottom: 10px;
+}
+
+.content-custom>p {
+	margin: 8px 0 8px 13px;
+}
+
+.symbol-link {
+	text-decoration: none;
+	color: pink;
+}
+
+.gps-smile {
+    font-size: 16px;
+    transition: font-size 2s;
+    -webkit-transition: font-size 2s; /* Safari 3.1 to 6.0 */
+    position: absolute;
+}
+
+.gps-smile:hover {
+    font-size: 50px;
+}

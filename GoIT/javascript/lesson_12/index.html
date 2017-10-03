@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 12</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <script type="text/template" id="cv">
+        <div class="container">
+        <div class="header">
+            <h1><%= headerTitle%></h1>
+            <img src="<%= headerImgSrc%>" alt="<%= headerImgAlt%>" title="<%= headerImgTitle%>" class="portrait">
+            <p><%= headerContent%></p>
+        </div>
+        <div class="content">
+            <p><%= contentTitle%></p>
+            <ul>
+                <% contentList.forEach(function(list) { %>
+                <li><%= list%></li>
+                <% }); %>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-custom">
+                <p><%= phoneTitle%></p>
+                <p><%= phone%></p>
+            </div>
+            <div class="content-custom">
+                <p><%= vkTitle%></p>
+                <p><a href="<%= vkUrl%>"><%= vk%></a></p>
+            </div>
+        </div>
+        <div class="content-custom">
+            <p><%= feedbackTitle%></p>
+            <p><%= feedback%> <a href="<%= smileUrl%>" class="symbol-link gps-smile">&#9786;</a></p>
+        </div>
+    </div>
+    </script>
+
+    <div id="results"></div>
+    
+    <script type="text/javascript" src="js/sjst.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
